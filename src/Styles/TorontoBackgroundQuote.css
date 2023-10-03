@@ -1,0 +1,51 @@
+.TorontoContainer{
+width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#Quote{
+
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+}
+
+.BotonQuoute{
+
+width: 100%;
+background: #dee2e6;
+text-align: center;
+padding: 30px;
+}
+
+.btn {
+
+    background: black;
+    font-size: 17px;
+}
+
+.TorontoImg{
+
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    
+}
+
+.TorontoImgMain{
+
+    width: 100%;
+}
+
+.py-4 {
+    padding-bottom: 0!important;
+  }
+
+  .cleaningGalery{
+
+text-align: center;
+padding: 20px;
+
+  }

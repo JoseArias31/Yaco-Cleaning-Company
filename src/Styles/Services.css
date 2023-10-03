@@ -1,0 +1,133 @@
+@import url('https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.descr{
+
+text-decoration: none;
+
+}
+.live {
+  overflow: hidden;
+}
+
+.containerList {
+
+width: 100%;
+background-size: 'cover';
+background-repeat: 'no-repeat';
+background-position: 'center';
+
+}
+
+.services {
+
+padding: 100px;
+
+
+}
+
+.live li {
+  list-style: none;
+  position: relative;
+  padding: 0 0 0 2em;
+  margin: 0 0 .5em 10px;
+  transition: .12s;
+}
+
+.live li::before {
+  position: absolute;
+  content: '\2022';
+  font-family: Arial;
+  color: #FFF;
+  top: 0;
+  left: 0;
+  text-align: center;
+  font-size: 2em;
+  opacity: .5;
+  line-height: .75;
+  transition: .5s;
+}
+
+.live li:hover {
+  color: #FFF;
+}
+
+.live li:hover::before {
+  transform: scale(2);
+  opacity: 1;
+  text-shadow: 0 0 4px;
+  transition: .1s;
+}
+
+
+.diagonal{
+    height: 800px;
+}
+
+.containerServices{
+justify-content: center;
+text-decoration-line: underline;
+}
+
+.Colm1 {
+
+background: #000C2B;
+color: white;
+}
+
+.TextFS{
+    text-align-last: center;
+}
+
+.FlexibleServicesList{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+
+.Colm3 {
+    background: #2B2E31;
+   }
+
+
+  @media (max-width: 908px) {
+ 
+    #CompanyDescription {
+      font-size: 1em;
+  
+  }}
+
+  @media (max-width: 769px) {
+ 
+    .listFS {
+      font-size: 0.8rem;
+      
+    }
+    .live li{
+
+      margin: 0;
+    }
+      .list-container {
+        display: none;
+      }
+    
+      .button-container {
+        display: block;
+      }
+   
+
+
+  }
+
+  .howItWorksContainer{
+
+background: gray;
+margin: 0;
+padding: 0;
+
+  }
+  .container{
+  margin-top: 0!important;
+
+}
