@@ -50,7 +50,7 @@ return(
                       <h6 className="text-uppercase fw-bold">Contact</h6>
                       <hr className="mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px", backgroundColor: "#7c4dff", height: "2px" }} />
                       <p><i className="fas fa-home mr-3"></i> Toronto, ON.</p>
-                      <p><i className="fas fa-envelope mr-3"></i> gojosearias@gmail.com</p>
+                      <p><i className="fas fa-envelope mr-3"></i> info@yacocleaning.com.com</p>
                       <p><i className="fas fa-phone mr-3"></i> +1 647-425-2986</p>
                     </div>
                   </div>
@@ -58,7 +58,7 @@ return(
               </section>
       
               <div className="text-center p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
-                ©CopyRigths 2023 Yaco Cleaning Powered by  
+                ©CopyRigth 2023 Yaco Cleaning Powered by  
                 <a className="text-white" target="_blank" rel="noopener noreferrer" href="https://josearias31.github.io/Portfolio-2023/"> Jose Arias</a>
               </div>
             </footer>
