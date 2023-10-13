@@ -5,6 +5,7 @@ import torontoImage from '../Images/toronto.jpg';
 import house from '../Images/Icon House.png';
 import office from '../Images/Icons Office.png';
 import construction from '../Images/Construction Building.png';
+import CommentBox from '../Components/CommentSection'
 
 
 function MainForm(){
@@ -57,14 +58,14 @@ alt="House Background"
   <h1 className="MainFromH1">Contact Us!</h1>
     <div className="col">
       <div className="form-outline">
-      <label className="form-label" for="form6Example1">First name*</label>
+      <label className="form-label" htmlFor="form6Example1">First name*</label>
         <input type="text" id="form6Example1" className="form-control" required/>
         
       </div>
     </div>
     <div className="col">
       <div className="form-outline">
-      <label className="form-label" for="form6Example2">Last name</label>
+      <label className="form-label" htmlFor="form6Example2">Last name</label>
         <input type="text" id="form6Example2" className="form-control" />
         
       </div>
@@ -73,14 +74,14 @@ alt="House Background"
 
   
   <div className="form-outline mb-4">
-  <label  className="form-label" for="form6Example3">Country</label>
+  <label  className="form-label" htmlFor="form6Example3">Country</label>
     <input type="text" value="Canada" id="form6Example3" className="form-control" />
     
   </div>
 
   
   <div className="form-outline mb-4">
-  <label className="form-label" for="form6Example4">Address*</label>
+  <label className="form-label" htmlFor="form6Example4">Address*</label>
     <input type="text" id="form6Example4" className="form-control" required/>
    
   </div>
@@ -88,21 +89,21 @@ alt="House Background"
   
   
   <div className="form-outline mb-4">
-  <label className="form-label" for="form6Example5">Email Address*</label>
+  <label className="form-label" htmlFor="form6Example5">Email Address*</label>
     <input type="email" id="form6Example5" className="form-control" required/>
     
   </div>
 
  
   <div className="form-outline mb-4">
-  <label className="form-label" for="form6Example6">Phone Number</label>
+  <label className="form-label" htmlFor="form6Example6">Phone Number</label>
     <input type="number" id="form6Example6" className="form-control" />
     
   </div>
 
   
   <div className="form-outline mb-4">
-  <label className="form-label" for="form6Example7">Additional information</label>
+  <label className="form-label" htmlFor="form6Example7">Additional information</label>
     <textarea className="form-control" id="form6Example7" rows="4"></textarea>
     
   </div>
@@ -110,17 +111,17 @@ alt="House Background"
   <div className="checkboxServices">
   <div className="form-check d-flex justify-content-center mb-4">
     <input className="form-check-input me-2" type="checkbox" value="" id="form6Example8" />
-    <label className="form-check-label" for="form6Example8">House</label>
+    <label className="form-check-label" htmlFor="form6Example8">House</label>
   </div>
 
   <div className="form-check d-flex justify-content-center mb-4">
     <input className="form-check-input me-2" type="checkbox" value="" id="form6Example8"  />
-    <label className="form-check-label" for="form6Example8">Office</label>  
+    <label className="form-check-label" htmlFor="form6Example8">Office</label>  
   </div>
 
   <div className="form-check d-flex justify-content-center mb-4">
     <input className="form-check-input me-2" type="checkbox" value="" id="form6Example8"  />
-    <label className="form-check-label" for="form6Example8">Post-Construction</label>
+    <label className="form-check-label" htmlFor="form6Example8">Post-Construction</label>
   </div>
   </div>
 
@@ -129,6 +130,9 @@ alt="House Background"
   </div>
 </form>
 </div>
+</div>
+<div>
+<CommentBox />
 </div>
 </div>
 

@@ -13,7 +13,7 @@ function CompanyName() {
       <div className="w3-display-middle companyNameContainer">
         <h1 className="w3-jumbo w3-animate-top">YACO CLEANING</h1>
         <hr className="w3-border-grey" style={{ margin: 'auto', width: '40%' }} />
-        <p className="w3-large w3-center">Best Toronto Cleaning Service</p>
+        <p className="w3-large w3-center">Toronto&apos;s Top Cleaning Choice</p>
       </div>
     </div>
     
