@@ -1,4 +1,6 @@
 
+import  { useRef } from "react";
+import emailjs from '@emailjs/browser';
 import '../Styles/MainForm.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import torontoImage from '../Images/toronto.jpg';
@@ -9,6 +11,25 @@ import CommentBox from '../Components/CommentSection'
 
 
 function MainForm(){
+  const form = useRef();
+  const MainFormtwo = (e) => {
+    e.preventDefault();
+        
+      // Send the email using EmailJS
+      emailjs
+      .sendForm('service_0mk8rzq', 'template_v7sa5wg', form.current, 'tS-p4UiAYRKJCv-KI')
+      .then((result) => {
+        console.log(result.text);
+        alert('Thank you! An agent will contact you ASAP.');
+        form.current.reset();
+      })
+      .catch((error) => {
+        console.log(error.text);
+        alert('Please complete the full information before continuing/');
+      });
+  
+
+    }
 
 return(
     <div id="contactUs" className="mainFormContainer">
@@ -52,21 +73,21 @@ alt="House Background"
 
 
 <div className="col-md-6"  id="mainForm">
-<form className="mainForm">
+<form ref={form} onSubmit={MainFormtwo} className="mainForm">
   
   <div className="row mb-4">
   <h1 className="MainFromH1">Contact Us!</h1>
     <div className="col">
       <div className="form-outline">
       <label className="form-label" htmlFor="form6Example1">First name*</label>
-        <input type="text" id="form6Example1" className="form-control" required/>
+        <input type="text" name="user_name" id="form6Example1" className="form-control" required/>
         
       </div>
     </div>
     <div className="col">
       <div className="form-outline">
       <label className="form-label" htmlFor="form6Example2">Last name</label>
-        <input type="text" id="form6Example2" className="form-control" />
+        <input type="text" name="last_name" id="form6Example2" className="form-control" />
         
       </div>
     </div>
@@ -82,7 +103,7 @@ alt="House Background"
   
   <div className="form-outline mb-4">
   <label className="form-label" htmlFor="form6Example4">Address*</label>
-    <input type="text" id="form6Example4" className="form-control" required/>
+    <input type="text" name="user_address" id="form6Example4" className="form-control" required/>
    
   </div>
 
@@ -90,37 +111,37 @@ alt="House Background"
   
   <div className="form-outline mb-4">
   <label className="form-label" htmlFor="form6Example5">Email Address*</label>
-    <input type="email" id="form6Example5" className="form-control" required/>
+    <input type="email" name="email" id="form6Example5" className="form-control" required/>
     
   </div>
 
  
   <div className="form-outline mb-4">
   <label className="form-label" htmlFor="form6Example6">Phone Number</label>
-    <input type="number" id="form6Example6" className="form-control" />
+    <input type="number" name="user_phone" id="form6Example6" className="form-control" />
     
   </div>
 
   
   <div className="form-outline mb-4">
   <label className="form-label" htmlFor="form6Example7">Additional information</label>
-    <textarea className="form-control" id="form6Example7" rows="4"></textarea>
+    <textarea className="form-control" name="message" id="form6Example7" rows="4"></textarea>
     
   </div>
 
   <div className="checkboxServices">
   <div className="form-check d-flex justify-content-center mb-4">
-    <input className="form-check-input me-2" type="checkbox" value="" id="form6Example8" />
+    <input name="project" className="form-check-input me-2" type="checkbox" value="House" id="form6Example8" />
     <label className="form-check-label" htmlFor="form6Example8">House</label>
   </div>
 
   <div className="form-check d-flex justify-content-center mb-4">
-    <input className="form-check-input me-2" type="checkbox" value="" id="form6Example8"  />
+    <input name="project" className="form-check-input me-2" type="checkbox" value="Office" id="form6Example9"  />
     <label className="form-check-label" htmlFor="form6Example8">Office</label>  
   </div>
 
   <div className="form-check d-flex justify-content-center mb-4">
-    <input className="form-check-input me-2" type="checkbox" value="" id="form6Example8"  />
+    <input name="project" className="form-check-input me-2" type="checkbox" value="Post-Construction" id="form6Example10"  />
     <label className="form-check-label" htmlFor="form6Example8">Post-Construction</label>
   </div>
   </div>
