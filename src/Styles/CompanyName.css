@@ -23,3 +23,12 @@ font-weight: 600;
     margin-top: 56px;
 
   }
+  
+
+  @media (max-width: 400px) {
+
+    #h1CompanyName{
+
+    font-size: 40px !important;
+    }
+  }

@@ -5,3 +5,9 @@
     text-align: -webkit-center;
     padding: 50px;
   }
+
+  @media (max-width: 1150px) {
+    #hcb_form {
+      width: 300px !important;
+    }
+  }
