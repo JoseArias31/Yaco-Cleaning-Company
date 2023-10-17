@@ -11,7 +11,7 @@ function CompanyName() {
        <br />
       </div>
       <div className="w3-display-middle companyNameContainer">
-        <h1 className="w3-jumbo w3-animate-top">YACO CLEANING</h1>
+        <h1 id='h1CompanyName' className="w3-jumbo w3-animate-top">YACO CLEANING</h1>
         <hr className="w3-border-grey" style={{ margin: 'auto', width: '40%' }} />
         <p className="w3-large w3-center">Toronto&apos;s Top Cleaning Choice</p>
       </div>
