@@ -15,4 +15,8 @@ margin: 0 !important;
   }
 
   
-
+  @media (max-width: 610px) {
+    .text-center {
+      font-size: 14px; 
+    }
+  }
