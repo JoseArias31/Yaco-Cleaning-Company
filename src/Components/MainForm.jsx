@@ -43,7 +43,7 @@ return(
 <div className="mainFormSections row">
 
 <div className="col-md-6 imagToronto">
-
+<h1 className="location">Location: Toronto, Canada.</h1>
 <img 
 className="TorontoImg"
 src={torontoImage}

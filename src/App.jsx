@@ -9,6 +9,7 @@ import WhatWeDo from './Components/whatWeDo.jsx';
 import Services from './Components/Services.jsx';
 import MainForm from './Components/MainForm.jsx';
 import Footer from './Components/Footer.jsx';
+import AboutUs from './Components/About Us.jsx'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
   <NavBar />
   <CompanyName />
   <Projects />
+  <AboutUs />
   <Toronto />
   <WhatWeDo />
   <Services />
