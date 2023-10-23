@@ -19,7 +19,7 @@ Our team of highly skilled professionals strives to deliver impeccable service o
           </div>
         </Col>
         {/* Column for Image */}
-        <Col md={6}>
+        <Col md={6} className='AboutUsImg'>
           <img
             src={Cleaning}
             alt="About Us"

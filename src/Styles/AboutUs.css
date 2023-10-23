@@ -10,4 +10,14 @@
     text-align: -webkit-center;
 }
 
+@media (min-width: 767px) {
 
+    .aboutUsP{
+
+margin-bottom: 0;
+
+    }
+    .AboutUsImg{
+    place-self: center;
+    }
+}
