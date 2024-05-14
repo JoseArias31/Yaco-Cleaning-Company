@@ -58,7 +58,7 @@ return(
               </section>
       
               <div className="text-center p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}>
-                ©CopyRigth 2023 Yaco Cleaning Powered by  
+                ©CopyRigth 2024 Yaco Cleaning Powered by  
                 <a className="text-white" target="_blank" rel="noopener noreferrer" href="https://josearias31.github.io/Portfolio-2023/"> Jose Arias</a>
               </div>
             </footer>
