@@ -11,7 +11,7 @@ return(
                 </div>
                                                  
                 <div>
-                  <a href="mailto:gojosearias@gmail.com" target="_blank" rel="noopener noreferrer" className="text-white me-4">
+                  <a href="mailto:businessjosearias@gmail.com" target="_blank" rel="noopener noreferrer" className="text-white me-4">
                     <i className="fab fa-google"></i>
                   </a>
                   <a href="https://instagram.com/gojosearias?igshid=YmMyMTA2M2Y=" target="_blank" rel="noopener noreferrer" className="text-white me-4">

@@ -1,0 +1,23 @@
+.aboutUsP{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    height: 100%;
+    place-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: -webkit-center;
+}
+
+@media (min-width: 767px) {
+
+    .aboutUsP{
+
+margin-bottom: 0;
+
+    }
+    .AboutUsImg{
+    place-self: center;
+    }
+}

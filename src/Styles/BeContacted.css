@@ -124,3 +124,33 @@
 
     border: #000000 1px solid;
   }
+
+  @media (max-width: 770px) {
+    .formContainer{
+
+      padding: 0;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      margin-right: 125px;
+    }
+
+    .BorderForm {
+width: 300px;
+    }
+    #submitBottomForm{
+      width: 300px;
+ 
+    }
+  
+  }
+
+  @media (max-width: 500px) {
+    .BorderForm {
+      width: 250px;
+      
+          }
+          #submitBottomForm{
+            width: 250px;
+       
+          }
+  }
