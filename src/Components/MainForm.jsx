@@ -43,7 +43,7 @@ return(
 <div className="mainFormSections row">
 
 <div className="col-md-6 imagToronto">
-<h1 className="location">Location: Toronto, Canada.</h1>
+<h1 className="location">Toronto, Canada</h1>
 <img 
 className="TorontoImg"
 src={torontoImage}
@@ -147,7 +147,7 @@ alt="House Background"
   </div>
 
   <div className="submitBottonMainContainer">
-  <button type="submit" className="btn btn-primary btn-block mb-4 submitBottonMain">Place order</button>
+  <button type="submit" className="btn btn-primary btn-block mb-4 submitBottonMain">Submit</button>
   </div>
 </form>
 </div>
