@@ -8,3 +8,38 @@
 
     margin-bottom: 50px;
 }
+
+#flexible{
+    justify-self: center;
+}
+
+
+/* En tu archivo CSS personalizado */
+h1 {
+    font-size: 2rem; /* Tamaño por defecto */
+  }
+  
+  @media (min-width: 576px) {
+    h1 {
+      font-size: 2.5rem; /* Tamaño para pantallas pequeñas */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 3rem; /* Tamaño para pantallas medianas */
+    }
+  }
+  
+  @media (min-width: 992px) {
+    h1 {
+      font-size: 2.5rem; /* Tamaño para pantallas grandes */
+      
+    }
+    #CompanyDescription{
+width: 70%;
+justify-self: center;
+align-self: center;
+    }
+  }
+  

@@ -10,6 +10,7 @@ import Services from './Components/Services.jsx';
 import MainForm from './Components/MainForm.jsx';
 import Footer from './Components/Footer.jsx';
 import AboutUs from './Components/About Us.jsx'
+// import Booking from './Components/Booking.jsx';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
   <CompanyName />
   <Projects />
   <AboutUs />
+  {/* <Booking /> */}
   <Toronto />
   <WhatWeDo />
   <Services />

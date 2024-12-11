@@ -28,3 +28,7 @@ margin-bottom: 0;
     place-self: center;
     }
 }
+
+.img-fluid{
+    border-radius: 10%;
+}

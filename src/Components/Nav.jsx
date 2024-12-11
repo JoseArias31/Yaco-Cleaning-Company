@@ -20,6 +20,9 @@ function NavBar() {
             <a className="nav-link" href="#projects">What We Do</a>
           </li>
           <li className="nav-item">
+            <a className="nav-link" href="https://calendly.com/yaco-cleaning" target='blank'>Book</a>
+          </li>
+          <li className="nav-item">
             <a className="nav-link" href="#gallery">Gallery</a>
           </li>
           <li className="nav-item">
