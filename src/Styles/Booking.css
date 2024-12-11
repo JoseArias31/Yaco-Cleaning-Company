@@ -1,0 +1,83 @@
+.maria{
+
+width: 120px;
+border-radius: 50%;
+border: 2px solid black;
+
+}
+
+.bookingSection{
+
+    width: 100%;
+    height: 800px;
+    background-color: #1e2338;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 50% 100%, 0 70%);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+width: auto full;
+}
+
+.mariaBooking2:hover{
+  
+    text-decoration: underline 2px;
+  }
+  #mariaBooking{
+  
+    font-size: 1.5rem;
+  }
+
+  #familyMembers{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 70px;
+    align-items: center;
+    text-align-last: center ;
+  }
+#eachFamilyMember{
+
+    flex-direction: column;
+    
+  } 
+
+  .cleanersNames{
+    font-size: 1rem;
+    margin: 10px;
+  }
+
+  #MariaSection{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+  }
+
+  @media (max-width: 1024px) {
+    #textBooking {
+      font-size: 2rem; /* Tamaño ajustado para tablets */
+      
+    }
+
+  }
+
+  @media (max-width: 799px) {
+    #MariaSection {
+      font-size: 1.5rem; /* Tamaño ajustado para móviles grandes */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 480px) {
+    #textBooking {
+        font-size: 1rem; /* Tamaño ajustado para tablets */
+      }
+    
+      
+      
+  }

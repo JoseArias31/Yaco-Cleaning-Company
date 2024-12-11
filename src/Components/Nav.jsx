@@ -20,13 +20,13 @@ function NavBar() {
             <a className="nav-link" href="#projects">What We Do</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="https://calendly.com/yaco-cleaning" target='blank'>Book</a>
+            <a className="nav-link" href="#bookSection">Book</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#gallery">Gallery</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#HCB_comment_box">Comments</a>
+            <a className="nav-link" href="#comments">Comments</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#contactUs">Contact Us</a>

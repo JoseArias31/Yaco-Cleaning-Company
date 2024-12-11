@@ -26,7 +26,7 @@ const CommentBox = () => {
   }, []);
 
   return (
-    <div id="HCB_comment_box">
+    <div id="comments">
       <a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...
     </div>
   );

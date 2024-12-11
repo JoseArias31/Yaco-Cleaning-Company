@@ -10,7 +10,7 @@ import Services from './Components/Services.jsx';
 import MainForm from './Components/MainForm.jsx';
 import Footer from './Components/Footer.jsx';
 import AboutUs from './Components/About Us.jsx'
-// import Booking from './Components/Booking.jsx';
+import Booking from './Components/booking.jsx'
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
   <CompanyName />
   <Projects />
   <AboutUs />
-  {/* <Booking /> */}
+  <Booking />
   <Toronto />
   <WhatWeDo />
   <Services />
