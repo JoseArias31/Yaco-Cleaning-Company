@@ -10,6 +10,13 @@
     text-align: -webkit-center;
 }
 
+.home-desc a{
+    color: rgb(64,64,73)!important;
+}
+.home-desc {
+    color: rgb(64,64,73)!important;
+}
+
 @media (min-width: 767px) {
 
     .aboutUsP{
