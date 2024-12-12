@@ -5,7 +5,7 @@ import marisol from '../Images/marisol.jpg'; // Unique image file
 import alejandra from '../Images/alejandra.jpg'; // Unique image file
 import '../Styles/Booking.css';
 
-const Booking = () => {
+const BookingPage = () => {
   const proCleaners = [
     {
       name: 'Marisol',
@@ -69,4 +69,4 @@ const Booking = () => {
   );
 };
 
-export default Booking;
+export default BookingPage;

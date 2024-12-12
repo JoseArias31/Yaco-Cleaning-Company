@@ -25,7 +25,7 @@ function MainForm(){
       })
       .catch((error) => {
         console.log(error.text);
-        alert('Please complete the full information before continuing/');
+        alert('Please complete the full information before continuing');
       });
   
 

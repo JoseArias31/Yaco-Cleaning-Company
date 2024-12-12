@@ -1,6 +1,21 @@
 
 import '../Styles/Footer.css'
+import { useNavigate } from "react-router-dom";
 function Footer() {
+  const navigate = useNavigate();
+
+  const handleHashLink = (hash) => {
+    if (window.location.pathname !== "/") {
+      navigate("/"); // Redirige al inicio
+    }
+    setTimeout(() => {
+      const element = document.getElementById(hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" }); // Hace scroll
+      }
+    }, 100); // Asegura que la página cargó antes de hacer scroll
+  };
+
 return(
 
           <div className="container-fluid my-5">
@@ -35,13 +50,13 @@ return(
                       <h6 className="text-uppercase fw-bold">Products</h6>
                       <hr className="mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px", backgroundColor: "#7c4dff", height: "2px" }} />
                       <p>
-                        <a href="#projects" className="text-white">Houses</a>
+                        <a onClick={() => handleHashLink("projects")}href="#projects" className="text-white">Houses</a>
                       </p>
                       <p>
-                        <a href="#projects" className="text-white">Offices</a>
+                        <a onClick={() => handleHashLink("projects")}href="#projects" className="text-white">Offices</a>
                       </p>
                       <p>
-                        <a href="#projects" className="text-white">Post-Construction</a>
+                        <a onClick={() => handleHashLink("projects")}href="#projects" className="text-white">Post-Construction</a>
                       </p>
                      
                     </div>
