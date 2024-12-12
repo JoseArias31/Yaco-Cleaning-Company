@@ -6,6 +6,11 @@ border: 2px solid black;
 
 }
 
+#textBooking{
+
+  font-size: 80px;
+}
+
 .bookingSection{
 
     width: 100%;
@@ -73,11 +78,48 @@ align-items: center;
     }
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 575px) {
     #textBooking {
         font-size: 1rem; /* Tamaño ajustado para tablets */
       }
-    
-      
+
+      .mariaBooking2{
+
+font-size: 1.2rem;
+margin-top: 20px;
+
+      }
+
+      #textBooking{
+
+        font-size: 1.8rem;
+        text-align: center;
+      }
+
+      #familyMembers{
+flex-direction: column;
+gap: 0;
+margin-top: 0;
+      }
+    .maria{
+
+      width: 80px;
+      border-radius: 50%;
+
+    }
+      #familyBooking{
+
+        margin-top: 0px;
+      }
+
+      #textFamilyMembers{
+
+        font-size: 1.5rem;
+      }
+
+      #booking {
+
+       height: 1000px;
+      }
       
   }

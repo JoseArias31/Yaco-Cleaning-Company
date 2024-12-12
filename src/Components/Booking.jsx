@@ -24,9 +24,10 @@ const Booking = () => {
   ];
 
   return (
-    <div id='bookSection' className='bookingSection'>
+    <div id='booking' className='bookingSection'>
       <div id='MariaSection'>
-      <h1 id='textBooking'>Booking your Cleaning Appointment</h1>
+      <h1 id='textBooking'>Booking your Cleaning</h1>
+      <h1 id='textBooking'>Appointment</h1>
 
       <img
         src={maria}
@@ -39,7 +40,7 @@ const Booking = () => {
           href="https://calendly.com/yaco-cleaning"
           target='blank'
         >
-          Book an Appointment with Maria
+          → Book an Appointment with Maria
         </a>
       </h2>
       </div>
@@ -60,7 +61,7 @@ const Booking = () => {
 
       
     </div>
-    <h3>Family Members</h3>
+    <h3 id='textFamilyMembers'>Family Members</h3>
     </div>
   );
 };

@@ -20,7 +20,7 @@ function NavBar() {
             <a className="nav-link" href="#projects">What We Do</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#bookSection">Book</a>
+            <a className="nav-link" href="#booking">Book</a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#gallery">Gallery</a>

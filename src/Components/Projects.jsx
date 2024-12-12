@@ -31,7 +31,7 @@ We are a professional cleaning company based in Toronto, providing top-notch cle
                 <p className="card-text">
                 House cleaning encompasses comprehensive maintenance in residential spaces included basements and backyards.It involves tasks like dusting, vacuuming, mopping floors, cleaning windows, sanitizing surfaces, and organizing living areas. Beyond these, aiming to establish hygienic environment that ensures the well-being of residents.
                 </p>
-                <a href="#mainForm" className="btn btn-primary">Book</a>
+                <a href="#booking" className="btn btn-primary">Book</a>
               </div>
             </div>
           </div>
@@ -48,7 +48,7 @@ We are a professional cleaning company based in Toronto, providing top-notch cle
                 <p className="card-text">
                 Office cleaning maintains an organized workspace in commercial settings. It includes tidying desks, equipment, common areas, and break rooms. The scope extends to cleaning bathrooms, garbage removal, and thorough carpet vacuuming. This fosters a professional, inviting atmosphere and promotes a healthy work environment for all.
                 </p>
-                <a href="#mainForm" className="btn btn-primary">Book</a>
+                <a href="#booking" className="btn btn-primary">Book</a>
               </div>
             </div>
           </div>
@@ -65,7 +65,7 @@ We are a professional cleaning company based in Toronto, providing top-notch cle
                 <p className="card-text">
                 Post-construction cleaning is the meticulous process of removing debris, dust, and residue left behind after construction or renovation projects. This specialized cleaning involves cleaning surfaces, windows, and fixtures, as well as removing construction materials. Post-construction cleaning restores the site to a safe and presentable condition for occupancy.
                 </p>
-                <a href="#mainForm" className="btn btn-primary">Book</a>
+                <a href="#booking" className="btn btn-primary">Book</a>
               </div>
             </div>
           </div>

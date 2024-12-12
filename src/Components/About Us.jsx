@@ -4,7 +4,7 @@ import '../Styles/AboutUs.css'
 
 const AboutUs = () => {
   return (
-    <Container>
+    <Container id='container2'>
       <Row>
         {/* Column for Content */}
         <Col md={6}>
